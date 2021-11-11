@@ -1,0 +1,11 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(../img/logo.jpg);
+  background-size: cover;
+  background-position: right, top;
+  background-color: #0009;
+  background-blend-mode: darken;
+  display: flex;
+  flex-direction: column;
+}

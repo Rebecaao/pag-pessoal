@@ -1,0 +1,46 @@
+main {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 80px;
+  font-family: "Open Sans", sans-serif;
+  color: #fff;
+}
+main h1 {
+  font-size: 6rem;
+  font-weight: 600;
+}
+main p {
+  font-size: 1.6rem;
+  width: 900px;
+  font-weight: 200;
+}
+.texto {
+  width: 500px;
+  font-size: 1.5rem;
+  font-weight: 100px;
+  font-family: "Opens Sans", sans-serif;
+}
+.textos {
+  display: flex;
+  flex-direction: row;
+  width: 1000px;
+  margin-bottom: 50px;
+}
+.informações {
+  display: flex;
+}
+.barrinha {
+  width: 5px;
+  height: 50px;
+  background-color: red;
+  margin-right: 50px;
+  border-radius: 5px 5px;
+}
+.itens {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

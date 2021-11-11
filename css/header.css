@@ -1,0 +1,36 @@
+header {
+  position: relative;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 90px;
+  padding-right: 90px;
+  background-color: #0005;
+}
+
+.arrumacao {
+  display: flex;
+  list-style: none;
+  gap: 70;
+}
+.menu > ul {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.5rem;
+  transition: color 0.5s;
+}
+.dropdown-menu > li:hover > a {
+  color: #e50914;
+}
+
+.dropdown-menu li:hover .dropdown-submenu {
+  display: flex;
+}
